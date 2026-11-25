@@ -1,0 +1,3 @@
+# Runtime dependencies: NumPy, SciPy, Streamlit, Plotly, CoolProp, pandas.
+# Full transitive versions and artifact hashes; Python 3.10 container reference.
+-r requirements/docker.txt

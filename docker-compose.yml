@@ -1,0 +1,11 @@
+services:
+  thermo-cycles:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    # Local research interface; no public host binding.
+    ports:
+      - "127.0.0.1:8501:8501"
+    init: true
+    restart: unless-stopped
+    stop_grace_period: 15s

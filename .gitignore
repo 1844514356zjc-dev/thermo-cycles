@@ -1,0 +1,17 @@
+# Python environments and build products
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv*/
+build/
+dist/
+# Test and lint output
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+junit*.xml
+# Local app secrets and machine files
+.streamlit/secrets.toml
+.env
+.DS_Store
